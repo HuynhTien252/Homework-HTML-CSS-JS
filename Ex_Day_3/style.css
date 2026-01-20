@@ -1,0 +1,208 @@
+.container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+.box-one,.box-three{
+    width: 220px;
+    height: 390px;
+    box-shadow: 0px 0.5px 3px rgb(0 , 0 , 0 , 0.2);
+    border-radius: 5px ;
+    margin: 10px;
+}
+
+.ui{
+    border-radius: 5px 5px 0 0  ;
+    background-color: #00BFFF;
+    display: flow-root;
+}
+
+.box-two{
+    width: 250px;
+    height: 420px;
+    box-shadow: 0px 0.5px 3px rgb(0 , 0 , 0 , 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+
+}
+.vip{
+    font-size: 20px;
+    width: 90px;
+    height: 25px;
+    color: #FFFFFF;
+    background-color: #000080;
+    position: absolute;
+    top: 33px;
+    right: -26px;
+    transform: rotate(0.25turn);
+}
+.vip p{
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+
+
+.ui-plus{
+    border-radius: 5px 5px 0 0;
+    background-color : rgb(68, 68, 238);
+    display: flow-root;
+}
+
+.entry{
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding: 5px 0 0 20px;
+
+}
+
+.deal-1,.deal-2,.deal-3 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.deal-1,.deal-3{
+    padding: 0 4px 0 0;
+}
+
+#price-1,#price-3{
+    font-size: 40px;
+    margin: 0;
+}
+
+#extension-1,#extension-3{
+    color: #e6eaeff6;
+    font-size: 13px;
+    padding: 0 0 0 4px;
+    margin: 26px 0 0 0;
+}
+
+#discount-1,#discount-3{
+    color: #FFFFFF;
+    background-color: #00AEEF;
+    font-size: 10px;
+    width: 60px;
+    height: 15px;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 10px;
+    margin: 24px 0 0 0;
+    padding: 4px 0 0 0;
+
+}
+
+.deal-2{
+    padding: 0 23px 0 0;
+}
+
+#price-2{
+    font-size: 45px;
+    margin: 0;
+}
+
+#extension-2{
+    color: #e6eaeff6;
+    font-size: 15px;
+    padding: 0 0 0 5px;
+    margin: 28px 0 0 0;
+}
+
+#discount-2{
+    color: #FFFFFF;
+    background-color: #3838b5;
+    font-size: 12px;
+    text-align: center;
+    width: 64px;
+    height: 18px;
+    border: 0px solid;
+    border-radius: 10px; 
+    margin: 24px 0 0 0;
+    padding: 5px 0 0 0;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    padding: 0 12px 0 0;
+}
+
+.tagline{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px 0 20px 19px;
+    
+}
+
+.box-one .tagline, .box-three .tagline{
+    font-size: 15px;
+}
+
+.box-two .tagline{
+    font-size: 16px;
+}
+/* Phần giao điện của phần dưới */
+.endow{
+    margin: 20px 0;
+}
+.endow ul{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 0 0 20px ;
+}
+.endow ul li{
+    list-style-type: none;
+    padding: 0 0 20px 0;
+}
+.endow ul li::before{
+    content: "\2713";
+    color: rgb(20, 206, 20);
+    margin-right: 7px;
+}
+.endow .bt{
+    font-size: 13px;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 0 25px;
+}
+.endow-plus{
+    margin: 38px 0;
+}
+.endow-plus ul{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 0 0 20px ;
+}
+.endow-plus ul li{
+    list-style-type: none;
+    padding: 0 0 20px 0;
+}
+.endow-plus ul li::before{
+    content: "\2713";
+    color: rgb(20, 206, 20);
+    margin-right: 7px;
+}
+.endow-plus .bt{
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 0 25px;
+}
+
+
